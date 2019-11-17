@@ -3,11 +3,8 @@
 Script for creating matrices of substitutions, deletions, and insertions of amino acids from SABmark sup alignments.
 
 gen_nseq() 
-
 PURPOSE: Finds the number of distinct sequences in all groups
-
 INPUT: none
-
 OUTPUT: dictionary with {group number : nseq}
 Path directory dependent
 
