@@ -20,7 +20,8 @@ get_seqs(file)
 PURPOSE: Extract sequences from a .fasta file
 INPUT: .fasta file
 OUTPUT: array of two strings (sequences), with seq 0 being the ancestor/parent, and seq 1 being the descendant/child
-in_matrix(seqs) 	#INCOMPLETE
+
+in_matrix(seqs)
 PURPOSE: Track frequencies of insertions in one alignment (2 seq)
 INPUT: array of two string sequences, with the 0th being the parent and the 1st the child
 OUTPUT: Dictionary {key : count} ; key is a string of len 3-4 in the format [parent leftFlank, parent rightFlank, length of insert]
@@ -32,7 +33,8 @@ PURPOSE: Track frequencies of deletions in one alignment (2 seq)
 INPUT: array of two string sequences, with the 0th being the parent and the 1st the child
 OUTPUT: Dictionary {key : count} ; key is a string of len 3-4 in the format [parent leftFlank, parent rightFlank, length of deletion]
 dictionary[‘type’] will get you ‘del’
-sub_matrix 		#NEEDSUPDATING
+
+sub_matrix
 PURPOSE: Track frequencies of insertions in one alignment (2 seq)
 INPUT: array of two string sequences, with the 0th being the parent and the 1st the child
 OUTPUT: Dictionary {key : count} ; key is a string of len 4 in the format [parent leftFlank, current protein, parent rightFlank, subbed protein]
