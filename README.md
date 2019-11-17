@@ -2,6 +2,7 @@
 
 Script for creating matrices of substitutions, deletions, and insertions of amino acids from SABmark sup alignments.
 
+# Basic description of functions
 gen_nseq() 
 PURPOSE: Finds the number of distinct sequences in all groups
 INPUT: none
