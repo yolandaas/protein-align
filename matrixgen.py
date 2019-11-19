@@ -1,6 +1,7 @@
 import glob
 from pathlib import Path
 import csv
+from aminoacids import *
 
 ###############
 # DESCRIPTION #
@@ -234,7 +235,14 @@ def write_to_csv(csv_file, bool):
         return
     with open(csv_file, 'w') as f:
         for key in matrix.keys():
-            if matrix['type'] == 'sub':
+            if key == 'type':
+                if matrix[key] == 'sub':
+                    f.write("Lflank,Mid,Rflank,Sub,Count")
+                elif matrix[key] == 'del':
+                    f.write("Lflank,Rflank,Del Len,Count")
+                elif matrix[key] == 'in':
+                    f.write("Lflank,Rflank,In Len,Count")
+            elif matrix['type'] == 'sub':
                 f.write("%s,%s,%s,%s,%s\n" % (key[0], key[1], key[2], key[3], matrix[key]))
             else:
                 f.write("%s,%s,%s,%s\n" % (key[0], key[1], key[2:], matrix[key]))
