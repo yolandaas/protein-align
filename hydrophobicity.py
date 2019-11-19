@@ -77,5 +77,4 @@ write_to_csv(hydrophob_matrix, hydrophob_csv_file, generate_hydrophob_csv)
 write_to_csv(hydrophil_matrix, hydrophil_csv_file, generate_hydrophil_csv)
 write_to_csv(combo_matrix, combo_csv_file, generate_combo_csv)
 
-print(hydrophob_matrix)
-
+# assert sum([int(hydrophob_matrix[x]) for x in hydrophob_matrix.keys() if x != 'type']) == 52214
