@@ -28,7 +28,7 @@ first_group = 1
 last_group = 425
 
 path_to_sup = 'C:/Users/yolan/SABmark/SABmark/sup/'
-path_to_csv_file = path_to_sup + 'in_matrix.csv'
+path_to_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/in_matrix.csv'
 
 
 #############################################

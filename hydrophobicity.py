@@ -16,10 +16,10 @@ IN PROGRESS
 """
 
 # Variables to be modified
-sub_csv = 'C:/Users/yolan/SABmark/SABmark/sup/sub_matrix.csv'
-hydrophob_csv_file = 'C:/Users/yolan/SABmark/SABmark/sup/hydrophob_matrix.csv'
-hydrophil_csv_file = 'C:/Users/yolan/SABmark/SABmark/sup/hydrophil_matrix.csv'
-combo_csv_file = 'C:/Users/yolan/SABmark/SABmark/sup/combo_hydro_matrix.csv'
+sub_csv = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/sub_matrix.csv'
+hydrophob_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/hydrophob_matrix.csv'
+hydrophil_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/hydrophil_matrix.csv'
+combo_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/combo_hydro_matrix.csv'
 generate_hydrophob_csv = False
 generate_hydrophil_csv = False
 generate_combo_csv = False
