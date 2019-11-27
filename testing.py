@@ -1,10 +1,11 @@
 from pathlib import Path
-from access import *
+from matrixgen import *
+from math import *
 
 # Main area to run tests
 path_to_sup_test = 'C:/Users/yolan/SABmark/SABmark/sup/'
 iter_test = False
-nseq_test = True
+nseq_test = False
 run_in_test = False
 run_del_test = False
 run_sub_test = False
@@ -58,3 +59,8 @@ if run_sub_test:
 
     test_sub = glob.iglob(path_to_sup_test + '/group1/reference/*.fasta').__iter__()
     print(sub_matrix(get_seqs(test_sub.__next__())))
+
+def log_odd_ratio(obs_prob, exp_prob):
+    return 2 * log2(obs_prob / exp_prob)
+
+print(round(log_odd_ratio(0.0044, 0.074 * 0.099)))

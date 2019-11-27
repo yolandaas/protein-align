@@ -109,7 +109,4 @@ column_headers()
 csv_aggregator()
 write_to_csv(csv_file, generate_csv)
 
-i = 0
-for line in matrix:
-    print(list(code.keys())[i] + str(line))
-    i+=1
+

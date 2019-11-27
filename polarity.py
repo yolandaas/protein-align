@@ -16,10 +16,10 @@ IN PROGRESS
 """
 
 # Variables to be modified
-sub_csv = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/sub_matrix.csv'
-polar_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/polar_matrix.csv'
-nonpolar_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/nonpolar_matrix.csv'
-combo_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/combo_polar_matrix.csv'
+sub_csv = 'C:/Users/yolan/Documents/Holmes/prot_align/matrices/sub_matrix.csv'
+polar_csv_file = 'C:/Users/yolan/Documents/Holmes/prot_align/matrices/polar_matrix.csv'
+nonpolar_csv_file = 'C:/Users/yolan/Documents/Holmes/prot_align/matrices/nonpolar_matrix.csv'
+combo_csv_file = 'C:/Users/yolan/Documents/Holmes/prot_align/matrices/combo_polar_matrix.csv'
 generate_polar_csv = False
 generate_nonpolar_csv = False
 generate_combo_csv = False

@@ -28,7 +28,7 @@ first_group = 1
 last_group = 425
 
 path_to_sup = 'C:/Users/yolan/SABmark/SABmark/sup/'
-path_to_csv_file = 'C:/Users/yolan/Documents/Holmes2/prot_align/matrices/in_matrix.csv'
+path_to_csv_file = 'C:/Users/yolan/Documents/Holmes/prot_align/matrices/in_matrix.csv'
 
 
 #############################################
@@ -101,8 +101,7 @@ def get_seqs(file):
             seq += line[:len(line)-1]
             try:
                 line = iter.__next__()
-            except:
-                StopIteration
+            except StopIteration:
                 seqs.append(seq)
                 break
     if len(seq[0]) != len(seq[1]):
