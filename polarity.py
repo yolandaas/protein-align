@@ -77,5 +77,5 @@ write_to_csv(polar_matrix, polar_csv_file, generate_polar_csv)
 write_to_csv(nonpolar_matrix, nonpolar_csv_file, generate_nonpolar_csv)
 write_to_csv(combo_matrix, combo_csv_file, generate_combo_csv)
 
-print(polar_matrix)
+#print(polar_matrix)
 

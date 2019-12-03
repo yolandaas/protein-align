@@ -169,6 +169,8 @@ def matrix_generator(bool):
 
 
 # Generates the count of individual amino acids
+# NOTE: The following line(s) are commented out due 
+# to the matrices already being generated
 nseq = gen_nseq()
 #matrix_generator(generate_matrix)
 #print(sum(matrix.values()))
@@ -200,5 +202,6 @@ def csv_aggregator():
             sub_matrix[aa] += count
 
 csv_reader = csv.reader(open(sub_csv))
-csv_aggregator()
-# print(sub_matrix)
+# NOTE: The following line(s) are commented out due 
+# to the matrices already being generated
+#csv_aggregator()
